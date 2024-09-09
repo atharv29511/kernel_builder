@@ -20,11 +20,11 @@ on: # [push]
       KREPO:
         description: 'kernel repo'
         required: true
-        default: 'https://github.com/25ji-Telegram-de/android_kernel_xiaomi_selene'
+        default: 'https://github.com/selene-dt/android_kernel_xiaomi_selene'
       KBRANCH:
         description: 'kernel branch'
         required: true
-        default: 'yuki'
+        default: 'lineage-21'
       NOTES:
         description: 'notes to print out'
         required: false
